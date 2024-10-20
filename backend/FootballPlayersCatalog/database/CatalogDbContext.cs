@@ -7,7 +7,7 @@ public class CatalogDbContext : DbContext
 {
     public CatalogDbContext(DbContextOptions<CatalogDbContext> options) : base(options) { }
 
-    public virtual DbSet<FootballPlayer> players { get; set; }
+    public virtual DbSet<FootballPlayer?> Players { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
