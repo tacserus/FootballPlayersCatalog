@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FootballPlayersCatalog.models;
 
-public class CreatePlayerDto
+public class CreatePlayerModel
 {
     [Required]
     public string Name { get; set; }

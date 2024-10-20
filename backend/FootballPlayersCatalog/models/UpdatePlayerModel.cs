@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FootballPlayersCatalog.models;
 
-public class UpdatePlayerDto
+public class UpdatePlayerModel
 {
     [Required]
     public Guid Id { get; set; }
